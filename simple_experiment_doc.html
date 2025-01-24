@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+    <head>
+        <title>simple ish</title>
+        <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+        <title>Flexbox Wrapper</title>
+        
+        <style>
+            /*.wrapper {
+                display: flex;
+                justify-content: space-between;
+                flex-: auto auto auto;
+                align-items: center;
+                padding: 20px;
+                background-color: green;
+            }
+
+            .wrapper div {
+                background-color: purple;
+                padding: 20px;
+                margin: 5px;
+                color: white;
+            }*/
+            body {
+                animation: kf-rainbow-background 5s infinite;
+            }
+            @keyframes kf-rainbow-background {
+                0%   { background-color: red; }
+                20%  { background-color: orange; }
+                40%  { background-color: yellow; }
+                60%  { background-color: green; }
+                80%  { background-color: blue; }
+                100% { background-color: violet; }
+            }
+
+            .light {
+                background-color: orange;
+                color: black;
+                transition: 0.3s;
+            }
+            .light:hover {
+                background-color: orange;
+                color: white;
+            }
+
+            /*fieldset {
+                background-color: red;
+                color: red;
+                transition: 0.3s;
+            }
+
+            fieldset:hover {
+                background-color: red;
+                color: white;
+            }*/
+        </style>
+    </head>
+
+    <body>
+        <!--div class="wrapper">
+            <div>Item 1</div>
+            <div>Item 2</div>
+            <div>Item 3</div>
+            <div>Item 4</div>
+        </div-->
+
+        <div>
+            <button class="light">why hello there ^^</button>
+        </div>
+
+        <div>
+            <fieldset class="light">hello uwu</fieldset>
+        </div>
+    </body>
+</html>
